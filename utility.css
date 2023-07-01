@@ -8,3 +8,7 @@
     background: #1374F6;
     color: #ffff;
 }
+
+.btn:hover {
+    background: #4797ff;
+}

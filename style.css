@@ -66,6 +66,7 @@ li {
 
 li a {
     color: #1F1E61;
+    display: block;
 }
 
 .navbar-menu li:last-child {
@@ -75,6 +76,10 @@ li a {
     background: #FDD76E;
     width: 160px;
     height: 60px;
+}
+
+.navbar-menu li:last-child:hover {
+    background: #ffd152;
 }
 
 /* showcase */
@@ -181,17 +186,23 @@ li a {
 .chatbox .message-btn{
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: auto;
     margin-top: 6px;
     width: 125px;
     height: 36px;
     border-radius: 5px;
     background: #00B894;
-}
-.chatbox .message-btn a {
-    width: fit-content;
-    margin: auto;
     color:#fff;
+}
+
+.chatbox .message-btn:hover{
+    background: #0ac7a1;
+}
+
+.chatbox .message-btn {
+    /* width: fit-content;
+    margin: auto; */
 }
 
 /* realtime user */
